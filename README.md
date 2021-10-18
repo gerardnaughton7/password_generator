@@ -12,3 +12,11 @@ python3 manage.py runserver<br />
 Create Django Apps:<br />
 python manage.py startapp generator
 
+## Django
+
+How to run project:<br />
+Clone repo<br />
+Download Python<br />
+Download Django using Pip: pip install django <br />
+Run Server: python3 manage.py runserver<br />
+
