@@ -16,6 +16,7 @@ Including another URLconf
 from django.urls import path
 from generator import views
 
+# Add URL Paths
 urlpatterns = [
     path('', views.home , name = 'home'),
     path('about/', views.about , name = 'about'),

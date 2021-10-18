@@ -2,7 +2,8 @@ from django.shortcuts import render
 from django.http import HttpResponse
 import random
 
-# Create your views here.
+# Create your views here. 
+# Pass values and generate methods here
 
 def home (request):
     return render(request, 'generator/home.html', {'password': 'jdshkjsah'})
