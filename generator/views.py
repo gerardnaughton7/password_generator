@@ -31,5 +31,8 @@ def password(request):
 
     return render(request, 'generator/password.html', {'password':thepassword})
 
+def refresh(request):
+    return render(request.GET.get('url'))
+    
 def about(request):
     return render(request, 'generator/about.html')
